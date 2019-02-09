@@ -4,7 +4,7 @@
   "description": "EWS Managed api in JavaScript",
   "main": "js/ExchangeWebService.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "npmprep": "gulp build && gulp build-typedef && gulp npm-prep && npm version"
   },
   "typings": "typings/ExchangeWebService.d.ts",
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/gautamsi/ews-javascript-api",
   "dependencies": {
     "base64-js": "^1.2.0",
-    "moment": "^2.17.1",
+    "moment": "^2.24.0",
     "moment-timezone": "^0.5.11",
     "uuid": "^3.1.0",
     "xmldom": "^0.1.22"
@@ -53,19 +53,19 @@
     "gulp-delete-lines": "0.0.7",
     "gulp-if": "^2.0.1",
     "gulp-load-plugins": "^1.4.0",
-    "gulp-mocha": "^3.0.1",
-    "gulp-nodemon": "^2.2.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.4.2",
     "gulp-replace": "^0.5.4",
     "gulp-task-listing": "^1.0.1",
     "gulp-typedoc": "^2.0.0",
     "gulp-uglify": "^2.0.0",
-    "gulp-useref": "^3.1.2",
+    "gulp-useref": "^3.1.6",
     "gulp-util": "^3.0.7",
-    "mocha": "^3.4.2",
+    "mocha": "^5.2.0",
     "node-notifier": "^4.6.1",
     "q": "^1.4.1",
     "r": "^0.0.5",
-    "typedoc": "^0.5.1",
+    "typedoc": "^0.14.2",
     "typescript": "^2.3.4",
     "yargs": "^6.3.0"
   },
